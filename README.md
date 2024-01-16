@@ -1,11 +1,14 @@
 Objectif :
+
 Développer une application web dynamique en utilisant Node.js pour le backend et React pour le frontend, le tout en typescript.
 Le but de cette application est de fournir une plateforme permettant la gestion et la visualisation d’items et de catégorie.
 Nous ne nous attarderons pas sur l’aspect visuel de l’application, mais nous attendons un design simple et fonctionnel.
 L’application aura 2 sections distinctes. Une sections item et une section catégorie.
 La section item permettera de visualiser les items existants, d’en ajouter, d’en modifier et d’en supprimer.
+
 Exemple d'item : { label: 'Burger cheddar', description: 'Cheddar, bun, viande'}
 La section categorie permettera de visualiser les catégories existantes, d’en ajouter, d’en modifier et d’en supprimer.
+
 Exemple de categorie: { label: 'Burger', position: 0 }
 Dans la section categorie, je dois pouvoir selectionner une categorie et voir les items associés à cette categorie.
 Pour la persistance des données, vous pouvez utiliser les technologies et outils de votre choix.
